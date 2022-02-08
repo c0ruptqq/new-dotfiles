@@ -1,0 +1,25 @@
+- defaults:
+      link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+      ~/.zshrc: zshrc
+      ~/.aliases: aliases
+      ~/.bashrc: bashrc
+      ~/pacman.sh: pacman.sh
+      ~/.config/alacritty/alacritty.yml: alacritty.yml
+      ~/.config/fontconfig/fonts.conf: fonts.conf
+      ~/.config/i3/config: i3/config
+      ~/.config/i3/polybar.sh: i3/polybar.sh
+      ~/.config/neofetch/config.conf: neofetch/config.conf
+      ~/.config/nitrogen/nitrogen.cfg: nitrogen/nitrogen.cfg
+      ~/.config/nitrogen/bg-saved.cfg: nitrogen/bg-saved.cfg
+      ~/.config/polybar/config: polybar/config
+      ~/.config/qutebrowser/config.py: qute/config.py
+      ~/.config/zathura/zathurarc: zathura/zathurarc
+      
+
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
