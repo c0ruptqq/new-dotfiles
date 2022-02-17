@@ -1,2 +1,2 @@
 alias ls='ls --color=auto'
-alias neofetch='neofetch --source /home/c0rupt/ayo_amongus'
+alias neofetch='neofetch'
