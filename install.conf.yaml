@@ -20,6 +20,7 @@
     ~/.config/polybar/config: polybar/config
     ~/.config/qutebrowser/config.py: qute/config.py
     ~/.config/zathura/zathurarc: zathura/zathurarc
-
+    ~/.config/nvim/init.vim: nvim/init.vim
+    ~/.config/nvim/setup.sh: nvim/setup.sh
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
