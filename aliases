@@ -1,2 +1,6 @@
 alias ls='ls --color=auto'
 alias neofetch='neofetch'
+alias 2monitor='xrandr --output eDP-1 --auto --output HDMI-1 --auto --right-of eDP-1'
+alias 1monitor='xrandr --output HDMI-1 --off'
+alias explore='ranger'
+alias chem='rsync -av ~/chemistry iceman@192.168.0.76:/mnt/cryptdrive/chem_lessons'
